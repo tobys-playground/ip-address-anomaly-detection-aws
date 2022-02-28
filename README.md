@@ -1,1 +1,1 @@
-# ip-address-anomaly-detection-aws
+# IP Address Anomaly Detection (AWS SageMaker + Step Functions + CodePipeline)
