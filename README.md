@@ -10,7 +10,7 @@ Each of the IP addresses from Singapore was then tagged to one of the 5 western 
 
 ![image](https://user-images.githubusercontent.com/81354022/156128562-b3891295-ca73-43a9-9f14-417bc8c06990.png)
 
-## MLOps Steps
+## MLOps
 As a bonus, this repo contains a MLOps **CodePipeline** that will create a **Step Functions State Machine** when there is a change to the code, and fine-tune and deploy the **IP Insights model** with SageMaker.
 
 1) A commit made to the **GitHub/CodeCommit** repository will trigger the **CodePipeline** and start the **CodeBuild** job
