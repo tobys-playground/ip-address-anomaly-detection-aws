@@ -6,6 +6,11 @@ It is common for users to hide their real IP addresses using a proxy like Tor, b
 
 The dataset was taken from GeoLite2 (http://dev.maxmind.com/geoip/geoip2/geolite2). I cleaned it to remove submasks and keep only 50 records each from the United States, the United Kingdom, France, Germany, and Canada as these countries had the most records. I also retrieved 5 records from Singapore to serve as outliers/anomalies.
 
+## Data Cleaning (PySpark)
+
+1) Drop all rows with null values
+2) Remove the subnets
+
 The training data looks as below:
 
 ![image](https://user-images.githubusercontent.com/81354022/156147192-762b6a47-05b7-42b4-94a1-93540e5efc5b.png)
