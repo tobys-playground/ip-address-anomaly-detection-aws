@@ -10,7 +10,7 @@ The training data looks as below:
 
 ![image](https://user-images.githubusercontent.com/81354022/156147192-762b6a47-05b7-42b4-94a1-93540e5efc5b.png)
 
-Each of the IP addresses from Singapore was then tagged to one of the 5 Western countries, and will be the test data for the model.
+Each of the IP addresses from Singapore was then tagged to one of the 5 Western countries, and this will be the test data for the model.
 
 ![image](https://user-images.githubusercontent.com/81354022/156128562-b3891295-ca73-43a9-9f14-417bc8c06990.png)
 
