@@ -6,7 +6,7 @@ It is common for users to hide their real IP addresses using a proxy like Tor, b
 
 The dataset was taken from GeoLite2 (http://dev.maxmind.com/geoip/geoip2/geolite2). I cleaned it to remove submasks and keep only 50 records each from the United States, the United Kingdom, France, Germany, and Canada as these countries had the most records. I also retrieved 5 records from Singapore to serve as outliers/anomalies.
 
-Each of the IP addresses from Singapore was then tagged to one of the 5 western countries, and will be the test data for the model.
+Each of the IP addresses from Singapore was then tagged to one of the 5 Western countries, and will be the test data for the model.
 
 ![image](https://user-images.githubusercontent.com/81354022/156128562-b3891295-ca73-43a9-9f14-417bc8c06990.png)
 
