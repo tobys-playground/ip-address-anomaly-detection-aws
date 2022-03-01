@@ -4,7 +4,7 @@
 
 It is common for users to hide their real IP addresses using a proxy like Tor, but is it possible to at least tell if an IP address belongs to a geographical location? I conducted an experiment using SageMaker's own IP Insights to see if it could identify IP addresses that do not belong to the regions they claim to be from.
 
-The dataset was taken from GeoLite2 (http://dev.maxmind.com/geoip/geoip2/geolite2). I cleaned it to remove submasks and keep only 50 records each from the United States, the United Kingdom, France, Germany, and Canada as these countries had the most records. I also retrieved 5 records from Singapore to serve as outliers/anomalies.
+The dataset was taken from GeoLite2 (http://dev.maxmind.com/geoip/geoip2/geolite2). I cleaned it to remove submasks and keep only 50 records each from the United States, the United Kingdom, France, Germany, and Canada as these countries had the most records. I also retrieved **5 records from Singapore to serve as outliers/anomalies**.
 
 ## Data Cleaning (PySpark)
 
