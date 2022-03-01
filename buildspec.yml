@@ -1,0 +1,21 @@
+version: 0.2
+env:
+  variables:
+    WORKFLOW_EXECUTION_ROLE: WORKFLOW_EXECUTION_ROLE
+    TRAINING_INSTANCE: TRAINING_INSTANCE
+    REGION: REGION
+    ESTIMATOR_ROLE: ESTIMATOR_ROLE
+    HOSTING_INSTANCE: HOSTING_INSTANCE
+    ARTIFACT_LOCATION: ARTIFACT_LOCATION
+    DATA_LOCATION: DATA_LOCATION
+phases:
+  install:
+    runtime-versions:
+      python: 3.9
+  build:
+    commands:
+      - pip install stepfunctions sagemaker
+      - python step_function.py
+  post_build:
+    commands: 
+      - echo See training on SageMaker now
